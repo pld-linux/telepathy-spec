@@ -10,6 +10,7 @@ Source0:	http://telepathy.freedesktop.org/releases/telepathy-spec/%{name}-%{vers
 URL:		http://telepathy.freedesktop.org/wiki/
 BuildRequires:	libxslt-progs
 BuildRequires:	python
+BuildRequires:	python-cheetah
 BuildRequires:	python-docutils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
