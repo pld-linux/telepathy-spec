@@ -1,17 +1,16 @@
 Summary:	Telepathy specication
 Summary(pl.UTF-8):	Specyfikacja Telepathy
 Name:		telepathy-spec
-Version:	0.27.0
+Version:	0.27.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
-Source0:	http://telepathy.freedesktop.org/releases/telepathy-spec/%{name}-%{version}.tar.gz
-# Source0-md5:	bc08a1a895ae11a4a3101c8d7218d391
-URL:		http://telepathy.freedesktop.org/wiki/
+Source0:	https://telepathy.freedesktop.org/releases/telepathy-spec/%{name}-%{version}.tar.gz
+# Source0-md5:	acb1b820d3254a410ad994c7ac698c12
+URL:		https://telepathy.freedesktop.org/spec/
 BuildRequires:	libxslt-progs
-BuildRequires:	python
-BuildRequires:	python-cheetah
-BuildRequires:	python-docutils
+BuildRequires:	python3 >= 1:3
+BuildRequires:	python3-jinja2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
